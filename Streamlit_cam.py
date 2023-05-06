@@ -18,7 +18,7 @@ def detect(gray, frame):
     return frame
 
 
-def run_face_detection(camera_id=0):
+def run_face_detection(camera_id=1):
     video_capture = cv2.VideoCapture(camera_id)
     if not video_capture.isOpened():
         st.write('Unable to load camera.')
@@ -43,4 +43,4 @@ def run_face_detection(camera_id=0):
 
 if st.button("Can I detect your face ?"):
     # You can try passing different camera IDs here to see if it works
-    run_face_detection(camera_id=0)
+    run_face_detection(camera_id=1)
