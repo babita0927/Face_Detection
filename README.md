@@ -9,7 +9,7 @@ Streamlit (for deployment)
 Clone the repository: git clone https://github.com/babita0927/Face_Detection
 Install the required packages: pip install -r requirements.txt
 ## Usage
-Run the application locally: python app.py
+Run the application locally: streamlit run Streamlit_cam.py
 Click on the "Can I detect your face?" button to start the webcam.
 The application will detect faces in real-time using the webcam.
 ## Deployment
