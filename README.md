@@ -20,4 +20,4 @@ OpenCV
 Streamlit
 Haar Cascades
 ## Credits
-This project was created by your-name.
+This project was created by Babita Patel.
